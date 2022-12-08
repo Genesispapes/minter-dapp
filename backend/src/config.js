@@ -44,25 +44,25 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 4; // Your API key rate limit
-const CHAIN = 'goerli'; // only goerli, polygon, or ethereum
+const CHAIN = 'ethereum'; // only goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Genesis Papes';
 const CONTRACT_SYMBOL = 'GPS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = '0xC041Df83E8eea009c0bd9279c308d115ab27758F';
-const TREASURY_ADDRESS = '0xC041Df83E8eea009c0bd9279c308d115ab27758F';
+const OWNER_ADDRESS = '0x6EaDbAcB27c0b055103Ae164C9bFbb64e838f8CA';
+const TREASURY_ADDRESS = '0xc7a55d49036b59A8931935A49054fcC28a596Dc6';
 const MAX_SUPPLY = 8888; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.0069; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 25; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 20; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-12-08T11:30:30+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-12-09T22:00:30+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-12-08T10:30:30+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-12-09T21:00:30+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 699; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xC041Df83E8eea009c0bd9279c308d115ab27758F"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0xc7a55d49036b59A8931935A49054fcC28a596Dc6"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update ifcx 2q90--09 you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xC041Df83E8eea009c0bd9279c308d115ab27758F"]; // only update if you want to manually set the whitelisted addresses
