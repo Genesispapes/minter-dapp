@@ -7,13 +7,13 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Genesis Papes";
-const description = "8,888 Pixel Apes from deep in the heart of the jungle who wandered onto the Ethereum Blockchain. Papes offer no utility and rather lead the way with pure vibes and community.";
-const baseUri = "https://ipfs.io/ipfs/bafkreiahukyes2tnontkqvnchwacnof25zezrle77jqwwxnadd7dinghwq"; // This will be replaced automatically
+const namePrefix = "Papes Genesis";
+const description = "Genesis Papes is a fun, community driven project consisting of 8,8888 alluring 32x32 Pixel Apes. Papes are so much more than just pixel art. Each Pape acts as a pass, rewarding holders with exclusive benefits such as alpha-access, airdrops, giveaways, and so much more. Holding a Pape also offers access to an extensive community full of web3 degens just like yourself.";
+const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 8888,
+    growEditionSizeTo: 250,
     layersOrder: [
       { name: "Background" },
       { name: "Type" },
